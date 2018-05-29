@@ -1,0 +1,42 @@
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file. -->
+<html>
+  <head>
+    <title>Water Popup</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      #hydrateImage {
+        width: 100px;
+        margin: 5px;
+      }
+
+      button {
+        margin: 5px;
+        outline: none;
+      }
+
+      button:hover {
+        outline: #80DEEA dotted thick;
+      }
+    </style>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+  </head>
+  <body>
+    <img src='./assets/github128.png' id='hydrateImage'>
+
+    <a href="https://github.com/notifications" target="_blank">Github Notifications</a>
+
+    Token:<input type="text" id="token" name="token">
+
+    <script src="popup.js"></script>
+  </body>
+</html>
