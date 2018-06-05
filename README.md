@@ -5,7 +5,7 @@
 
 2. Set token in Google Chrome extensions.
 
-![screen shot 2018-05-29 at 3 46 25 pm](https://user-images.githubusercontent.com/9859310/40647984-798fe8dc-6357-11e8-88c6-5372e3fbd1c1.png)
+![screen shot 2018-06-05 at 9 44 57 am](https://user-images.githubusercontent.com/9859310/40952387-464cba7e-68a5-11e8-9b71-1314b5f37437.png)
 
 3. Google Chrome extensions will check Notification every minutes.
 
