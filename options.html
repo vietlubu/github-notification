@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github Notification Setting</title>
+    <style>
+        body {
+            margin: 0 auto;
+            display: table;
+            font-size: 16px;
+        }
+        #token {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Github Notification Setting</h1>
+    <label for="token">
+        Github Token<br>
+        <small>Just need <code>notifications</code> permission.</small><br>
+    </label>
+    
+    <input type="text" name="token" id="token">
+    <button id="save-token" disabled>Save</button>
+
+    <script src="options.js"></script>    
+</body>
+</html>

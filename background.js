@@ -3,6 +3,10 @@
 // found in the LICENSE file.
 'use strict';
 
+chrome.browserAction.onClicked.addListener(function(activeTab){
+    chrome.tabs.create({url: "https://github.com/notifications"});
+});
+
 chrome.notifications.onClicked.addListener(function() {
     window.open('https://github.com/notifications', '_blank').focus();
 });
