@@ -1,5 +1,5 @@
 ### Github Notifications Google Chrome Extensions
-1. Create Personal access token. Just need `notifications` permission.
+1. Create [Personal access token](https://github.com/settings/tokens). Just need `notifications` permission.
 
 ![screen shot 2018-05-29 at 3 44 24 pm](https://user-images.githubusercontent.com/9859310/40647920-537db07a-6357-11e8-8d89-1ead96a8481b.png)
 
